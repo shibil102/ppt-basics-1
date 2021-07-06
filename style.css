@@ -1,0 +1,63 @@
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.front-end__language__logos,
+.front-end__frameworks__logos,
+.other__frameworks__logos,
+.mobile__application__frameworks__logos,
+.desktop__frameworks__logos,
+.UI__logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.front-end__language__logos .html .html_logo,
+.front-end__language__logos .css .css_logo,
+.front-end__language__logos .javascript .javascript_logo {
+  aspect-ratio: 1 / 1;
+  height: 8rem;
+}
+.front-end__frameworks__logos .react .react_logo,
+.front-end__frameworks__logos .angular .angular_logo,
+.front-end__frameworks__logos .vue .vue_logo {
+  aspect-ratio: 1 / 1;
+  height: 8rem;
+}
+.other__frameworks__logos .sass .sass_logo,
+.other__frameworks__logos .bootstrap .bootstrap_logo,
+.other__frameworks__logos .jquery .jquery_logo {
+  aspect-ratio: 1 / 1;
+  height: 8rem;
+}
+.mobile__application__frameworks__logos .ionic .ionic_logo,
+.mobile__application__frameworks__logos .flutter .flutter_logo,
+.mobile__application__frameworks__logos .react .react_logo {
+  aspect-ratio: 1 / 1;
+  height: 8rem;
+}
+
+.desktop__frameworks__logos .ionic .ionic_logo,
+.desktop__frameworks__logos .net .net_logo,
+.desktop__frameworks__logos .electron .electron_logo {
+  aspect-ratio: 1 / 1;
+  height: 8rem;
+}
+.UI__logos .xd .xd_logo,
+.UI__logos .ps .ps_logo,
+.UI__logos .figma .figma_logo {
+  aspect-ratio: 1 / 1;
+  height: 8rem;
+}
+
+.front-end__frameworks__logos .react .react_logo,
+.mobile__application__frameworks__logos .react .react_logo {
+  animation: rotate 5s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
